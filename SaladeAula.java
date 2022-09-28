@@ -39,7 +39,7 @@ class SaladeAula  {
 
   public void numalunos() {
 
-    this.numalunospresentes = 23;
+    this.numalunospresentes = 26;
     
   }
 
