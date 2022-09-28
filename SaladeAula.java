@@ -1,4 +1,4 @@
-class SaladeAula  {
+public class SaladeAula  {
 
   private int computadores;
   
@@ -23,7 +23,7 @@ class SaladeAula  {
     
   }
 
-  public void VerificaPcsUsados () {
+  public void getVerificaPcsUsados () {
 
     TodosPcsUsados();
 
@@ -37,15 +37,15 @@ class SaladeAula  {
     
   }
 
-  public void EncheTurma() {
+  public void setAlunos(int alunos) {
 
-    this.numalunospresentes = 26;
+    this.numalunospresentes = alunos;
     
   }
 
-  public void EsvaziaTurma() {
+  public void setPcs(int pcs) {
 
-    this.numalunospresentes = 0;
+    this.computadores = pcs;
     
   }
 
