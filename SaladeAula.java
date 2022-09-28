@@ -29,17 +29,23 @@ class SaladeAula  {
 
     if (todospcsusados == true) 
 
-      System.out.println ("Todos os Pcs estao sendo usados.");
+      System.out.println ("Todos os Pcs estão sendo usados.");
       
     else 
       
-      System.out.println ("Ainda ha pcs livres para uso.");
+      System.out.println ("Ainda há Pcs livres para uso.");
     
   }
 
-  public void numalunos() {
+  public void EncheTurma() {
 
     this.numalunospresentes = 26;
+    
+  }
+
+  public void EsvaziaTurma() {
+
+    this.numalunospresentes = 0;
     
   }
 
