@@ -1,4 +1,4 @@
-public class SaladeAula  {
+class SaladeAula  {
 
   private int computadores;
   
